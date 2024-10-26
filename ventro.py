@@ -7,6 +7,8 @@ from discord.ext.commands import has_any_role  # Pastikan has_any_role diimpor d
 import asyncio
 import logging
 
+TOKEN = 'MTI5OTM5Njg1MTYyMzEzMzI3NA.GXwhbA.CyCPbmuLaQAxo4BIzDThpcc3ka9gTXIyurW8nk'
+
 # Atur logging
 logging.basicConfig(level=logging.INFO)
 
@@ -411,4 +413,4 @@ async def delete(ctx, jumlah: int):
 
 
 
-bot.run('MTI5OTM5Njg1MTYyMzEzMzI3NA.GDI7eF.BoDBOfuAnr3yeT3mviLPsHdsca6Ye8p6fcs4JQ')
+bot.run(TOKEN)
