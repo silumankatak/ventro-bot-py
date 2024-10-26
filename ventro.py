@@ -8,7 +8,7 @@ import asyncio
 import logging
 import os
 
-TOKEN = os.getenv('MTI5OTM5Njg1MTYyMzEzMzI3NA.GXwhbA.CyCPbmuLaQAxo4BIzDThpcc3ka9gTXIyurW8nk')
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 # Atur logging
 logging.basicConfig(level=logging.INFO)
