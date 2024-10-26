@@ -7,7 +7,7 @@ from discord.ext.commands import has_any_role  # Pastikan has_any_role diimpor d
 import asyncio
 import logging
 
-TOKEN = 'MTI5OTM5Njg1MTYyMzEzMzI3NA.GXwhbA.CyCPbmuLaQAxo4BIzDThpcc3ka9gTXIyurW8nk'
+TOKEN = os.getenv('MTI5OTM5Njg1MTYyMzEzMzI3NA.GXwhbA.CyCPbmuLaQAxo4BIzDThpcc3ka9gTXIyurW8nk')
 
 # Atur logging
 logging.basicConfig(level=logging.INFO)
