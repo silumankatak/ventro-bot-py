@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from discord.ext.commands import has_any_role  # Pastikan has_any_role diimpor dengan benar
 import asyncio
 import logging
+from dotenv import load_dotenv
 import os
 
 TOKEN = os.getenv('DISCORD_TOKEN')
